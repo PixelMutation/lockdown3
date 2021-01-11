@@ -1,0 +1,78 @@
+{
+  "mappings": {
+    "xyz/przemyk/simpleplanes/mixin/MixinClientPlayNetworkHandler": {
+      "onEntitySpawn": "Lnet/minecraft/class_634;method_11112(Lnet/minecraft/class_2604;)V",
+      "Lnet/minecraft/network/packet/s2c/play/EntitySpawnS2CPacket;getX()D": "Lnet/minecraft/class_2604;method_11175()D"
+    },
+    "xyz/przemyk/simpleplanes/mixin/MixinCamera": {
+      "setPos": "method_19322(Lnet/minecraft/class_243;)V",
+      "Lnet/minecraft/client/render/Camera;clipToSpace(D)D": "Lnet/minecraft/class_4184;method_19318(D)D",
+      "update": "Lnet/minecraft/class_4184;method_19321(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V",
+      "pitch": "field_18717:F",
+      "yaw": "field_18718:F"
+    },
+    "xyz/przemyk/simpleplanes/mixin/MixinClientPlayerEntity": {
+      "openRidingInventory": "Lnet/minecraft/class_746;method_3132()V"
+    },
+    "xyz/przemyk/simpleplanes/mixin/MixinEntityRenderDispatcher": {
+      "render(Lnet/minecraft/entity/Entity;DDDFFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_898;method_3954(Lnet/minecraft/class_1297;DDDFFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+      "Lnet/minecraft/client/render/entity/EntityRenderer;render(Lnet/minecraft/entity/Entity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_897;method_3936(Lnet/minecraft/class_1297;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+    },
+    "xyz/przemyk/simpleplanes/mixin/MixinGameRenderer": {
+      "renderWorld(FJLnet/minecraft/client/util/math/MatrixStack;)V": "Lnet/minecraft/class_757;method_3188(FJLnet/minecraft/class_4587;)V",
+      "net/minecraft/client/render/WorldRenderer.render(Lnet/minecraft/client/util/math/MatrixStack;FJZLnet/minecraft/client/render/Camera;Lnet/minecraft/client/render/GameRenderer;Lnet/minecraft/client/render/LightmapTextureManager;Lnet/minecraft/util/math/Matrix4f;)V": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lnet/minecraft/class_1159;)V"
+    },
+    "xyz/przemyk/simpleplanes/mixin/MixinServerPlayNetworkHandler": {
+      "vehicleFloatingTicks": "field_14137:I"
+    },
+    "xyz/przemyk/simpleplanes/mixin/MixinClientPlayerInteractionManager": {
+      "hasRidingInventory()Z": "Lnet/minecraft/class_636;method_2895()Z"
+    },
+    "xyz/przemyk/simpleplanes/mixin/MixinInGameHud": {
+      "render(Lnet/minecraft/client/util/math/MatrixStack;F)V": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V",
+      "renderStatusBars(Lnet/minecraft/client/util/math/MatrixStack;)V": "Lnet/minecraft/class_329;method_1760(Lnet/minecraft/class_4587;)V",
+      "renderExperienceBar": "Lnet/minecraft/class_329;method_1754(Lnet/minecraft/class_4587;I)V",
+      "renderMountJumpBar": "Lnet/minecraft/class_329;method_1752(Lnet/minecraft/class_4587;I)V",
+      "net/minecraft/client/gui/hud/InGameHud.getHeartCount(Lnet/minecraft/entity/LivingEntity;)I": "Lnet/minecraft/class_329;method_1744(Lnet/minecraft/class_1309;)I"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "xyz/przemyk/simpleplanes/mixin/MixinClientPlayNetworkHandler": {
+        "onEntitySpawn": "Lnet/minecraft/class_634;method_11112(Lnet/minecraft/class_2604;)V",
+        "Lnet/minecraft/network/packet/s2c/play/EntitySpawnS2CPacket;getX()D": "Lnet/minecraft/class_2604;method_11175()D"
+      },
+      "xyz/przemyk/simpleplanes/mixin/MixinCamera": {
+        "setPos": "method_19322(Lnet/minecraft/class_243;)V",
+        "Lnet/minecraft/client/render/Camera;clipToSpace(D)D": "Lnet/minecraft/class_4184;method_19318(D)D",
+        "update": "Lnet/minecraft/class_4184;method_19321(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V",
+        "pitch": "field_18717:F",
+        "yaw": "field_18718:F"
+      },
+      "xyz/przemyk/simpleplanes/mixin/MixinClientPlayerEntity": {
+        "openRidingInventory": "Lnet/minecraft/class_746;method_3132()V"
+      },
+      "xyz/przemyk/simpleplanes/mixin/MixinEntityRenderDispatcher": {
+        "render(Lnet/minecraft/entity/Entity;DDDFFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_898;method_3954(Lnet/minecraft/class_1297;DDDFFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V",
+        "Lnet/minecraft/client/render/entity/EntityRenderer;render(Lnet/minecraft/entity/Entity;FFLnet/minecraft/client/util/math/MatrixStack;Lnet/minecraft/client/render/VertexConsumerProvider;I)V": "Lnet/minecraft/class_897;method_3936(Lnet/minecraft/class_1297;FFLnet/minecraft/class_4587;Lnet/minecraft/class_4597;I)V"
+      },
+      "xyz/przemyk/simpleplanes/mixin/MixinGameRenderer": {
+        "renderWorld(FJLnet/minecraft/client/util/math/MatrixStack;)V": "Lnet/minecraft/class_757;method_3188(FJLnet/minecraft/class_4587;)V",
+        "net/minecraft/client/render/WorldRenderer.render(Lnet/minecraft/client/util/math/MatrixStack;FJZLnet/minecraft/client/render/Camera;Lnet/minecraft/client/render/GameRenderer;Lnet/minecraft/client/render/LightmapTextureManager;Lnet/minecraft/util/math/Matrix4f;)V": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lnet/minecraft/class_1159;)V"
+      },
+      "xyz/przemyk/simpleplanes/mixin/MixinServerPlayNetworkHandler": {
+        "vehicleFloatingTicks": "field_14137:I"
+      },
+      "xyz/przemyk/simpleplanes/mixin/MixinClientPlayerInteractionManager": {
+        "hasRidingInventory()Z": "Lnet/minecraft/class_636;method_2895()Z"
+      },
+      "xyz/przemyk/simpleplanes/mixin/MixinInGameHud": {
+        "render(Lnet/minecraft/client/util/math/MatrixStack;F)V": "Lnet/minecraft/class_329;method_1753(Lnet/minecraft/class_4587;F)V",
+        "renderStatusBars(Lnet/minecraft/client/util/math/MatrixStack;)V": "Lnet/minecraft/class_329;method_1760(Lnet/minecraft/class_4587;)V",
+        "renderExperienceBar": "Lnet/minecraft/class_329;method_1754(Lnet/minecraft/class_4587;I)V",
+        "renderMountJumpBar": "Lnet/minecraft/class_329;method_1752(Lnet/minecraft/class_4587;I)V",
+        "net/minecraft/client/gui/hud/InGameHud.getHeartCount(Lnet/minecraft/entity/LivingEntity;)I": "Lnet/minecraft/class_329;method_1744(Lnet/minecraft/class_1309;)I"
+      }
+    }
+  }
+}
