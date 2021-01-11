@@ -1,0 +1,7 @@
+linearFogStartMultiplier = 0.789
+linearFogEndMultiplier = 1.0
+expFogMultiplier = 1.839
+exp2FogMultiplier = 0.99
+listMode = "BLACKLIST"
+dimensionsList = ["minecraft:the_end"]
+fogType = "LINEAR"
